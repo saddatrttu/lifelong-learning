@@ -41,17 +41,17 @@ Hooks 是在特定事件触发时自动运行的脚本，用来：
 
 ## 生命周期事件
 
-| 事件 | 触发时机 | 是否需要 matcher |
-|------|---------|-----------------|
-| `SessionStart` | 会话开始时 | 否 |
-| `SessionEnd` | 会话结束时 | 否 |
-| `UserPromptSubmit` | 用户提交提示词时 | 否 |
-| `PreToolUse` | 工具执行前 | 是（匹配工具名称） |
-| `PostToolUse` | 工具执行后 | 是（匹配工具名称） |
-| `Stop` | Claude 完成回应时 | 否 |
-| `Notification` | Claude 发送通知时 | 否 |
-| `SubagentStart` | 子代理启动时 | 否 |
-| `SubagentStop` | 子代理结束时 | 否 |
+| 事件                 | 触发时机         | 是否需要 matcher |
+| ------------------ | ------------ | ------------ |
+| `SessionStart`     | 会话开始时        | 否            |
+| `SessionEnd`       | 会话结束时        | 否            |
+| `UserPromptSubmit` | 用户提交提示词时     | 否            |
+| `PreToolUse`       | 工具执行前        | 是（匹配工具名称）    |
+| `PostToolUse`      | 工具执行后        | 是（匹配工具名称）    |
+| `Stop`             | Claude 完成回应时 | 否            |
+| `Notification`     | Claude 发送通知时 | 否            |
+| `SubagentStart`    | 子代理启动时       | 否            |
+| `SubagentStop`     | 子代理结束时       | 否            |
 
 ---
 

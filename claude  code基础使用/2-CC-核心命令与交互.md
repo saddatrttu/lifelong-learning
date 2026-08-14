@@ -69,32 +69,32 @@ claude --debug        # 调试模式（打印详细日志）
 
 输入 `/` 会列出全部命令（含你安装的自定义 Skills）。常用命令：
 
-| 命令 | 功能 |
-|------|------|
-| `/help` | 显示所有可用命令 |
-| `/clear` | 清空当前对话上下文（切换任务用） |
-| `/compact [保留内容]` | 压缩对话历史，保留关键决策 |
-| `/context` | 查看当前 Token 使用量 |
-| `/status` | 显示当前会话状态 |
-| `/cost` | 显示 Token 使用量和费用 |
-| `/login` | 切换认证方式 |
-| `/model` | 切换 AI 模型 |
-| `/mode` | 切换权限/交互模式 |
-| `/init` | 为项目初始化 CLAUDE.md |
-| `/agents` | 查看和管理子代理 |
-| `/skills` | 查看已安装的 Skills |
-| `/mcp` | 管理 MCP 连接（见 [[5-CC-MCP与外部集成]]） |
-| `/hooks` | 查看钩子配置（见 [[6-CC-Hooks与自动化]]） |
-| `/review` | 审查最近的代码变更 |
-| `/pr-comments` | 处理 PR 审查评论 |
-| `/doctor` | 诊断常见问题 |
-| `/teleport` | 将 Web/移动端会话拉到终端 |
-| `/desktop` | 将会话转移到桌面应用 |
-| `/add-dir` | 给会话增加工作目录 |
-| `/statusline` | 配置状态栏 |
-| `/diff` | 可视化 diff |
-| `/feedback` | 报告 Bug（别名 `/bug`） |
-| `/exit` | 退出 Claude Code |
+| 命令                | 功能                             |
+| ----------------- | ------------------------------ |
+| `/help`           | 显示所有可用命令                       |
+| `/clear`          | 清空当前对话上下文（切换任务用）               |
+| `/compact [保留内容]` | 压缩对话历史，保留关键决策                  |
+| `/context`        | 查看当前 Token 使用量                 |
+| `/status`         | 显示当前会话状态                       |
+| `/cost`           | 显示 Token 使用量和费用                |
+| `/login`          | 切换认证方式                         |
+| `/model`          | 切换 AI 模型                       |
+| `/mode`           | 切换权限/交互模式                      |
+| `/init`           | 为项目初始化 CLAUDE.md               |
+| `/agents`         | 查看和管理子代理                       |
+| `/skills`         | 查看已安装的 Skills                  |
+| `/mcp`            | 管理 MCP 连接（见 [[5-CC-MCP与外部集成]]） |
+| `/hooks`          | 查看钩子配置（见 [[6-CC-Hooks与自动化]]）   |
+| `/review`         | 审查最近的代码变更                      |
+| `/pr-comments`    | 处理 PR 审查评论                     |
+| `/doctor`         | 诊断常见问题                         |
+| `/teleport`       | 将 Web/移动端会话拉到终端                |
+| `/desktop`        | 将会话转移到桌面应用                     |
+| `/add-dir`        | 给会话增加工作目录                      |
+| `/statusline`     | 配置状态栏                          |
+| `/diff`           | 可视化 diff                       |
+| `/feedback`       | 报告 Bug（别名 `/bug`）              |
+| `/exit`           | 退出 Claude Code                 |
 
 按需才用的命令：`/install-github-app`（GitHub Actions 集成）、`/bashes`（查看后台任务）、`/status` 等。
 
